@@ -640,6 +640,7 @@
                 <p class="svc-no">SERVICE 01</p>
                 <h3>ホームページ制作<br />＋管理画面</h3>
                 <p class="svc-for">コーポレートサイト・店舗サイトの新規制作／リニューアルに</p>
+                <p class="svc-price"><span class="svc-price-label">制作費</span>198,000円〜<br /><span class="svc-price-label">保守</span>月額9,800円</p>
               </div>
               <div class="svc-body">
                 <p>会社の顔となるサイトを、管理画面つきで制作します。公開後のお知らせ投稿やページ修正は自社で完結。問い合わせ導線の設計も標準で組み込みます。</p>
@@ -656,6 +657,7 @@
                 <p class="svc-no">SERVICE 02</p>
                 <h3>ホームページ<br />＋業務システム連携</h3>
                 <p class="svc-for">サイトに、日々の業務の仕組みを1つ組み込みたい方に</p>
+                <p class="svc-price"><span class="svc-price-label">制作費</span>798,000円〜<br /><span class="svc-price-label">保守</span>月額29,800円〜</p>
               </div>
               <div class="svc-body">
                 <p>ホームページに、予約・記録・顧客管理など業務の仕組みを1つ組み込む形です。紙やバラバラのツールに散らばった情報を、サイトと一つの流れにまとめます。</p>
@@ -672,6 +674,7 @@
                 <p class="svc-no">SERVICE 03</p>
                 <h3>フルカスタム開発</h3>
                 <p class="svc-for">業務効率化のシステムや、AI機能を本格的に入れたい方に</p>
+                <p class="svc-price"><span class="svc-price-label">制作費</span>1,500,000円〜<br /><span class="svc-price-label">保守</span>月額49,800円〜</p>
               </div>
               <div class="svc-body">
                 <p>業務効率化のためのシステム開発から、AI機能の組み込みまで。要件定義の段階から伴走し、既製品では合わない業務にぴったりの仕組みをつくります。</p>
@@ -684,7 +687,7 @@
               </div>
             </article>
           </div>
-          <p class="svc-note reveal">料金はいずれも内容によって異なるため、ヒアリングのうえでお見積りいたします。詳しくは<a href="#price">料金について</a>をご覧ください。</p>
+          <p class="svc-note reveal">表示の料金は目安です。ページ数や機能によって変わりますので、最終的な金額はヒアリング後のお見積りで確定します。詳しくは<a href="#price">料金について</a>をご覧ください。</p>
         </div>
       </section>
 
@@ -1043,6 +1046,15 @@
       .svc-no { font-size: 12.5px; font-weight: 700; letter-spacing: 0.18em; color: var(--brass); margin: 0 0 12px; }
       .svc h3 { font-family: "Shippori Mincho B1", serif; font-size: 23px; font-weight: 700; line-height: 1.6; margin: 0 0 12px; }
       .svc-for { font-size: 13.5px; color: var(--muted); margin: 0; line-height: 1.7; }
+      .svc-price {
+        margin: 18px 0 0; padding-top: 14px; border-top: 1px solid var(--line-strong);
+        font-weight: 900; font-size: 17px; line-height: 1.7; color: var(--green);
+      }
+      @media (prefers-color-scheme: dark) { .svc-price { color: var(--cream); } }
+      .svc-price .svc-price-label {
+        display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 0.12em;
+        color: var(--brass); margin-right: 10px; min-width: 3.2em;
+      }
       .svc-body > p { margin: 4px 0 18px; color: var(--ink); max-width: 40em; }
       .check { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px 24px; }
       .check li { position: relative; padding-left: 26px; font-size: 15px; color: var(--muted); }
@@ -1768,12 +1780,12 @@
           GROWTH: {
             name: 'GROWTH ― 管理画面つきホームページ',
             desc: '自分で更新できる管理画面つきのホームページです。お知らせやメニュー・料金の変更を、制作会社に頼まずその場で直せます。',
-            price: 'お見積り（ご提案・お見積りは無料）'
+            price: '制作費 198,000円〜 ＋ 保守 月額9,800円'
           },
           SYSTEM: {
             name: 'SYSTEM ― ホームページ＋業務システム連携',
             desc: 'ホームページに予約・顧客管理などの業務システムを組み込みます。電話対応や転記の手間を減らし、日々の業務と一つの流れにします。',
-            price: 'お見積り（ご提案・お見積りは無料）'
+            price: '制作費 798,000円〜 ＋ 保守 月額29,800円〜'
           },
           STARTER: {
             name: 'STARTER PLAN ― 入門プラン',
